@@ -3,14 +3,14 @@
 [![NPM version](https://img.shields.io/npm/v/angular-highcharts.svg)](https://npmjs.org/package/angular-storyshare-player)
 
 Storyshare is an Angular component allowing to broadcast stories on the web 🚀
-
+Based in https://github.com/lebiam/angular-storyshare-player.
 
 ## Installation
 
 ### npm
 
 ```bash
-npm i --save angular-storyshare-player
+npm install git+https://github.com/javierdomin/stories.git
 ```
 
 ## Usage Example
@@ -51,7 +51,7 @@ export class PlayerComponent {
     img: 'https://firebasestorage.googleapis.com/v0/b/stories-b3038.appspot.com/o/me.svg?alt=media&token=523d7e9d-40bc-4866-8637-95d5a74017a8'
   }
 
-  stories : Story[] = 
+  stories : Story[] =
         [
             {
               source : "https://picsum.photos/id/124/1080/1920",
