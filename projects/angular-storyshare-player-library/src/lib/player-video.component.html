@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="container-top-player">
+        <app-progress-wrapper-player class="component" id="progress" [stories]="stories"></app-progress-wrapper-player>
+        <app-header [img]="user.img" [name]="user.name"></app-header>
+    </div>
+    <app-content-player id="content-player" [stories]="stories" (storiesChange)="storiesChange($event)" ></app-content-player>
+</div>

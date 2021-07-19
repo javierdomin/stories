@@ -1,0 +1,17 @@
+.container{
+    width: 393.75px;
+    height: 700px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container-top-player{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}

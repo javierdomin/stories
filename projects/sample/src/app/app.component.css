@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    margin-right: 10vw;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    margin-left: 10vw;
+}
+
+#description{
+    width: 350px;
+    text-align: center;
+}
+
+#github-logo{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.container-github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

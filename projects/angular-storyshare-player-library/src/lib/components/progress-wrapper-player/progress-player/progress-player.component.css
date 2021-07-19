@@ -1,0 +1,13 @@
+.first {
+  width: 100%;
+  background-color: #eee;
+}
+
+.second {
+  background-color: #B5C0C4;
+}
+
+.progress-bar{
+    border-radius: 16px;
+    height: 2px;
+}
